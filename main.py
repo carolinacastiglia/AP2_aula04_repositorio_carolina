@@ -25,26 +25,26 @@ b2NaoBag.imprimirInformacoes()
 
 print("\n----------------------------------------------\n")
 
-auto1 = Automovel("Fiat", 4, "Uno", 80, 25)
+auto1 = Automovel("Fiat", 4, "Uno", 80, 25.8)
 auto1.imprimirInformacoes()
 auto1.acelerar(2)
 auto1.frear(10)
 
 print("\n----------------------------------------------\n")
 
-m1PartidElet = Moto("Suzuki", 2, 125, 200, 75, 1)
+m1PartidElet = Moto("Suzuki", 2, 125, 200, 75.7, 1)
 m1PartidElet.imprimirInformacoes()
 m1PartidElet.acelerar(25)
 m1PartidElet.frear(20)
 
 print("\n----------------------------------------------\n")
 
-m2SemPartElet = Moto("Suzuki", 2, 75, 140, 140, 0)
+m2SemPartElet = Moto("Suzuki", 2, 75, 140, 100.4, 0)
 m2SemPartElet.imprimirInformacoes()
 
 print("\n----------------------------------------------\n")
 
-c1 = Carro("Mercedes", 4, "AMG", 210, 150, 4)
+c1 = Carro("Mercedes", 4, "AMG", 210, 150.5, 4)
 c1.imprimirInformacoes()
 c1.acelerar(30)
 c1.frear(10)
