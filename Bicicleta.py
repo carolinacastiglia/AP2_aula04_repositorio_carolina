@@ -11,4 +11,4 @@ class Bicicleta(Veiculo):
         if self.bagageiro == 1:
             print("Possui ", self.numMarcha, " marchas e possui bagageiro.")
         else:
-            print("Ppossui ", self.numMarcha, " marchas e não possui bagageiro.")
+            print("Possui ", self.numMarcha, " marchas e não possui bagageiro.")
