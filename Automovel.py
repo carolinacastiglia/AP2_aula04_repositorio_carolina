@@ -7,4 +7,4 @@ class Automovel(Veiculo):
 
     def imprimirInformacoes(self):
         Veiculo.imprimirInformacoes(self)
-        print("Potência do motor de ", self.potenciaDoMotor)
+        print("Potência do motor de", self.potenciaDoMotor,"cavalos.")
