@@ -7,4 +7,4 @@ class Carro(Automovel):
     
     def imprimirInformacoes(self):
         Automovel.imprimirInformacoes(self)
-        print("Possui", self.qtdPortas, "portas")
+        print("Possui", self.qtdPortas, "portas.")
