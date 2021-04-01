@@ -2,6 +2,7 @@ from Veiculo import Veiculo
 from Bicicleta import Bicicleta
 from Automovel import Automovel
 from Moto import Moto
+from Carro import Carro
 
 print()
 
@@ -40,3 +41,12 @@ print("\n----------------------------------------------\n")
 
 m2SemPartElet = Moto("Suzuki", 2, 75, 140, 140, 0)
 m2SemPartElet.imprimirInformacoes()
+
+print("\n----------------------------------------------\n")
+
+c1 = Carro("Mercedes", 4, "AMG", 210, 150, 4)
+c1.imprimirInformacoes()
+c1.acelerar(30)
+c1.frear(10)
+
+print()
