@@ -9,6 +9,6 @@ class Bicicleta(Veiculo):
     def imprimirInformacoes(self):
         Veiculo.imprimirInformacoes(self)
         if self.bagageiro == 1:
-            print("Possui ", self.numMarcha, " marchas e possui bagageiro.")
+            print("Possui", self.numMarcha, "marchas e possui bagageiro.")
         else:
-            print("Possui ", self.numMarcha, " marchas e não possui bagageiro.")
+            print("Possui", self.numMarcha, "marchas e não possui bagageiro.")
