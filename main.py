@@ -1,6 +1,7 @@
 from Veiculo import Veiculo
 from Bicicleta import Bicicleta
 from Automovel import Automovel
+from Moto import Moto
 
 print()
 
@@ -29,3 +30,13 @@ auto1.acelerar(2)
 auto1.frear(10)
 
 print("\n----------------------------------------------\n")
+
+m1PartidElet = Moto("Suzuki", 2, 125, 200, 75, 1)
+m1PartidElet.imprimirInformacoes()
+m1PartidElet.acelerar(25)
+m1PartidElet.frear(20)
+
+print("\n----------------------------------------------\n")
+
+m2SemPartElet = Moto("Suzuki", 2, 75, 140, 140, 0)
+m2SemPartElet.imprimirInformacoes()
