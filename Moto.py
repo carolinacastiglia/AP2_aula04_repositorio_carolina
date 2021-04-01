@@ -8,6 +8,6 @@ class Moto(Automovel):
     def imprimirInformacoes(self):
         Automovel.imprimirInformacoes(self)
         if self.partidaEletrica == 1:
-            print("Com partida elétrica")
+            print("Com partida elétrica.")
         else:
-            print("Sem partida elétrica")
+            print("Sem partida elétrica.")
